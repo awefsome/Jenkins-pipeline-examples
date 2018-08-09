@@ -1,6 +1,7 @@
 Map modules = [:]
 
 pipeline {
+    agent any
     stages {
         stage('Init') {
             steps {
