@@ -1,2 +1,2 @@
-# Jenkins-pipelineExamples
+# Jenkins-pipeline-examples
 Jenkins pipelines
