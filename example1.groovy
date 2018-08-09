@@ -17,8 +17,8 @@ pipeline {
         stage('run') {
             steps {
                 script{
-                    modules.module2.module1_test1()
-                    modules.module2.module1_test2()
+                    modules.module1.module1_test1()
+                    modules.module1.module1_test2()
                     modules.module2.module2_test1()
                     modules.module2.module2_test2()
                 }
