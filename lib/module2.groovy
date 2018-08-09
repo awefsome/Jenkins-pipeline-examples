@@ -1,9 +1,11 @@
 import groovy.transform.Field
 
 @Field private scriptEnv = null
+@Field private mod1 = null
 
-def load(scriptenv, mod1) {
+def load(scriptenv, module1) {
     scriptEnv = scriptenv
+    mod1 = module1
 }
 
 def module2_test1(){
